@@ -1,4 +1,4 @@
-# D3 Tree Map
+# D3 Tree Map - Top 100 Kickstarter campaigns
 
 This tree map shows top 100 Kickstarter campaigns based on their funding. They are grouped by different categories in different colors. When you hover over a tile you will see a toolitp that will give more information about that kickstarter campaign.
 

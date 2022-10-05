@@ -13,7 +13,7 @@ Two other datasets are given as comments. You can use them for the tree map just
 
 **Attribution**: This chart is an exact replica of freecodecamp project at the url: [https://treemap-diagram.freecodecamp.rocks/](https://treemap-diagram.freecodecamp.rocks/) and it was done as a part of coursework of data visualisation on freecodecamp.
 
-Checkout the deployed app at the url: 
+Checkout the deployed app at the url: [https://dynamic-cat-d603c1.netlify.app/](https://dynamic-cat-d603c1.netlify.app/)
 
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/sathishkannan/pen/GRddVPP](https://codepen.io/sathishkannan/pen/GRddVPP).

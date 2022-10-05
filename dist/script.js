@@ -206,6 +206,12 @@ function ready(data) {
       if (arr.length * fontSize > d.y1 - d.y0) {
         arr = arr.slice(0, Math.floor(d.y1 - d.y0) / fontSize);
       }
+      for (let i=0;i<arr.length;i++){
+        if (7.5 * arr[i].length> (d.x1-d.x0)){
+          arr[i] = arr[i].slice(0, Math.floor(d.x1 -d.x0)/7.5)
+          console.log(arr[i]);
+        }
+      }
       let newObj = arr.map((item, i) => {
         let setObj = {
           word: item,
@@ -228,7 +234,7 @@ function ready(data) {
   let legendX = w / 2 - 60;
   let legendY = h + 30;
   let legendYGap = 20;
-  let legendXGap = 150;
+  let legendXGap = 180;
   let legendCentre = w / 2 - 1.5 * legendXGap;
   let legendTextOffset = 15;
 

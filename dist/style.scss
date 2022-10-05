@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Dosis:wght@200;400&family=Inter+Tight:wght@100;200;300&family=Merriweather:wght@300;400&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400&family=Raleway:wght@100;200;300;400&family=Roboto&display=swap');
+
+
+
+$svg-bg: #fff;
+$main-font: 'Raleway','open-sans';
+$tooltip-bg: #f7fa3b;
+
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $main-font;
+  margin: 0;
+  padding: 0;
+
+
+#title {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+  
+}
+
+#section {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  
+#tree-map{
+  background-color: $svg-bg;
+  
+  
+}
+  
+}
+  
+
+#tooltip {
+  background-color: $tooltip-bg;
+  font-size: 11px;
+  position: absolute;
+  text-align: center;
+  padding: 3px;
+  pointer-events: none;
+  border-radius: 4px;
+  top: 0;
+  left: 0;
+  transition: all 10ms ease-out;
+  
+  
+  
+}
+
+.text-label {
+  pointer-events: none;
+  overflow: hidden;
+
+}
+
+#attribution {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 2px;
+  display: block;
+  margin: 0;
+  margin-top: 20px;
+  a {
+    text-decoration: none;
+  }
+}
+  
+}
+  
